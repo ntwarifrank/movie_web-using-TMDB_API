@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviway Login</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    .login{
+        width: 500px;
+        height: 560px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px;
+        background-image: linear-gradient(to right,black,green);
+        margin: 0 auto;
+    }
+    input{
+        margin-bottom: 15px;
+        width: 400px;
+        margin-left: 20px;
+        height: 30px;
+    }
+    label{
+        margin-left: 20px;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        text-align: center;
+        color: rgb(255, 0, 251);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    h1{
+        text-align: center;
+        background-image: linear-gradient(rgb(207, 153, 153),rgb(77, 255, 0));
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 50px;
+    }
+    button{
+        float: right;
+        margin-right: 30px;
+        width: 100px;
+        height: 40px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+               
+    }
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+</style>
+<body>
+    <div class="login">
+
+        <div class="header"> 
+            <h1>Movieway Login</h1>  
+      
+        </div>
+         
+        <form action="indexx.php" id="demo" method="post">
+           <label for="">First Name</label><br>
+            <input type="text" name="" id="" name="name1"><br>
+
+            <label for="">Second Name</label><br>
+            <input type="text" name="" id="" name="name2"><br>
+
+            <label for="">Email</label><br>
+            <input type="email" name="" id="" name="email"><br>
+
+            <label for="">Your Birth Date</label><br>
+            <input type="date" name="" id="" name="date"><br>
+
+            <label for="">Password</label><br>
+            <input type="password" name="" id="" name="password"><br>
+
+            <label for="">Confirm Password</label><br>
+            <input type="password" name="" id=""><br>
+        </form>
+
+        <button type="submit" onclick="document.getElementById('demo').innerHTML='<h1><sub1>login</sub1><sub2> sucessful</sub2></h1>'">Login</button>
+        <button ><a href="movieway2.html">Cancel</a></button>
+    
+    </div>
+    
+</body>
+</html>
